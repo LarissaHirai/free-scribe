@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import Transcription from "./transcription";
-import Translation from "./translation";
+import Transcription from "./Transcription";
+import Translation from "./Translation";
 
 export default function Information(props) {
   const { output, finished } = props;
